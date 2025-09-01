@@ -1,16 +1,16 @@
 :root {
-  --primary-color: #8a2be2; /* Un morado suave */
-  --secondary-color: #f0f0f5; /* Un gris claro para el fondo */
-  --text-color: #4b4b4b; /* Un gris oscuro para el texto principal */
+  --primary-color: #b88199; 
+  --secondary-color: #f0f0f5; 
+  --text-color: #4b4b4b; 
   --heading-color: #333;
-  --bg-header: #f7e9f7; /* Un lila muy suave para el header */
+  --bg-header: #f7e9f7;
   --shadow-light: rgba(0, 0, 0, 0.05);
   --shadow-strong: rgba(0, 0, 0, 0.1);
   --border-radius-card: 15px;
 }
 
 body {
-  font-family: 'Poppins', sans-serif; /* Tipografía moderna y legible */
+  font-family: 'Poppins', sans-serif; 
   background-color: var(--secondary-color);
   color: var(--text-color);
   line-height: 1.7;
@@ -26,12 +26,12 @@ body {
   background-color: #fff;
   border-radius: var(--border-radius-card);
   box-shadow: 0 10px 30px var(--shadow-strong);
-  overflow: hidden; /* Importante para que los bordes redondeados se vean bien */
+  overflow: hidden;
   transition: all 0.3s ease;
 }
 
 .cv-container:hover {
-  transform: translateY(-5px); /* Efecto sutil al pasar el mouse */
+  transform: translateY(-5px); 
   box-shadow: 0 15px 40px var(--shadow-strong);
 }
 
@@ -60,7 +60,7 @@ body {
 }
 
 .name-title h1 {
-  font-family: 'Playfair Display', serif; /* Una tipografía con serif para un toque de elegancia */
+  font-family: 'Playfair Display', serif; 
   font-size: 3.5em;
   font-weight: 700;
   color: var(--primary-color);
@@ -166,7 +166,7 @@ main {
 .project-location-date, .experience-date {
   font-size: 0.9em;
   color: #777;
-  white-space: nowrap; /* Evita que la fecha se divida en varias líneas */
+  white-space: nowrap;
 }
 
 ul {
@@ -182,7 +182,7 @@ li {
 }
 
 li::before {
-  content: '✦'; /* Un ícono sutil en lugar de un punto */
+  content: '✦';
   position: absolute;
   left: 0;
   color: var(--primary-color);
@@ -198,7 +198,7 @@ li::before {
 
 @media (max-width: 768px) {
   .cv-container {
-    box-shadow: none; /* Elimina la sombra en móviles */
+    box-shadow: none; 
   }
 
   .header-content-wrapper {
